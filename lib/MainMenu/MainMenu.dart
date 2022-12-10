@@ -14,17 +14,19 @@ class _MainMenuState extends State<MainMenu> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: AppColor.primartyColor,
-        appBar: AppBar(
-          centerTitle: true,
-          title: Text("Games of Games"),
-          foregroundColor: AppColor.buttonColor,
-          backgroundColor: AppColor.primartyColor,
-        ),
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
+              Text(
+                "Games of Games",
+                style: TextStyle(
+                  color: AppColor.buttonColor,
+                  fontSize: 45.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               Container(
                 //BEYKENT LOGO
                 width: 200,
