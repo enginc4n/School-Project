@@ -20,7 +20,7 @@ class _MainMenuState extends State<MainMenu> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
-                "Games of Games",
+                "Games of Game",
                 style: TextStyle(
                   color: AppColor.buttonColor,
                   fontSize: 45.0,

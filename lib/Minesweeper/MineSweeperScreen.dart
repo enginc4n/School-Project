@@ -80,12 +80,16 @@ class _MineSweeperScreenState extends State<MineSweeperScreen> {
                           size: 34,
                         ),
                         Text(
+                          setState(() {
+                            
+                          },
                           timeLeft.toString(),
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 32.0,
                               fontWeight: FontWeight.bold),
                         )
+                        
                       ],
                     ),
                   ),
